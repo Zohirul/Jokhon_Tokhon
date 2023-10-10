@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.CustomJava" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Jokhon_Tokhon" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<!--         <item name="colorPrimary">@color/my_light_primary</item>-->
     </style>
-    <style name="Theme.CustomJava" parent="Base.Theme.CustomJava" />
+    <style name="Theme.Jokhon_Tokhon" parent="Base.Theme.Jokhon_Tokhon" />
 
     <!-- SplashScreen -->
     <style name="SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
@@ -15,6 +15,7 @@
     <style name="DialogAnimation">
 
         <item name="android:windowExitAnimation">@anim/slide_out</item>
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
 
     </style>
 </resources>

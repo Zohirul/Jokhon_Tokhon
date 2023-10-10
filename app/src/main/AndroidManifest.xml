@@ -13,14 +13,45 @@
         android:theme="@style/Theme.Jokhon_Tokhon"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".nav_logout"
+            android:exported="false" />
+        <activity
+            android:name=".PersonalSignup"
+            android:exported="false" />
+        <activity
+            android:name=".ProfessionalSignup"
+            android:exported="false" />
+        <activity
+            android:name=".Personal_Professional"
+            android:exported="true" />
+        <activity
+            android:name=".PersonalProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OtpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SuccessfulOtpLoginActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".custom_dialog_sucessful_otplogin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
